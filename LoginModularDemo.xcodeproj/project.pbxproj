@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2C268B1130371E8300664406 /* LoginFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 2C268B1030371E8300664406 /* LoginFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2C73DBED3037121A00A0B0FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C73DBDF3037121900A0B0FC /* LoginModularDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginModularDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C73DBEC3037121A00A0B0FC /* LoginModularDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModularDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C73DBF63037121A00A0B0FC /* LoginModularDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModularDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C268B0F30371C6900664406 /* LoginFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LoginFeature; sourceTree = "<group>"; };
+		2C9535B43037198B006F39EB /* UIComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIComponents; sourceTree = "<group>"; };
+		2CA3E61E303718B40037E880 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		2CAEA54D303715F800702BAA /* LoginModularDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginModularDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAEA54E303715F800702BAA /* LoginModularDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModularDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAEA54F303715F800702BAA /* LoginModularDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModularDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C268B1130371E8300664406 /* LoginFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,18 +86,21 @@
 				2C73DBE13037121900A0B0FC /* LoginModularDemo */,
 				2C73DBEF3037121A00A0B0FC /* LoginModularDemoTests */,
 				2C73DBF93037121A00A0B0FC /* LoginModularDemoUITests */,
-				2C73DBE03037121900A0B0FC /* Products */,
+				2CAEA54D303715F800702BAA /* LoginModularDemo.app */,
+				2CAEA54E303715F800702BAA /* LoginModularDemoTests.xctest */,
+				2CAEA54F303715F800702BAA /* LoginModularDemoUITests.xctest */,
+				2CAEA56A3037171500702BAA /* Frameworks */,
+				2CA3E61E303718B40037E880 /* Networking */,
+				2C9535B43037198B006F39EB /* UIComponents */,
+				2C268B0F30371C6900664406 /* LoginFeature */,
 			);
 			sourceTree = "<group>";
 		};
-		2C73DBE03037121900A0B0FC /* Products */ = {
+		2CAEA56A3037171500702BAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C73DBDF3037121900A0B0FC /* LoginModularDemo.app */,
-				2C73DBEC3037121A00A0B0FC /* LoginModularDemoTests.xctest */,
-				2C73DBF63037121A00A0B0FC /* LoginModularDemoUITests.xctest */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,9 +123,12 @@
 			);
 			name = LoginModularDemo;
 			packageProductDependencies = (
+				2CAEA5843037187300702BAA /* Networking */,
+				2C9535B530371BA1006F39EB /* UIComponents */,
+				2C268B1030371E8300664406 /* LoginFeature */,
 			);
 			productName = LoginModularDemo;
-			productReference = 2C73DBDF3037121900A0B0FC /* LoginModularDemo.app */;
+			productReference = 2CAEA54D303715F800702BAA /* LoginModularDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2C73DBEB3037121A00A0B0FC /* LoginModularDemoTests */ = {
@@ -137,7 +151,7 @@
 			packageProductDependencies = (
 			);
 			productName = LoginModularDemoTests;
-			productReference = 2C73DBEC3037121A00A0B0FC /* LoginModularDemoTests.xctest */;
+			productReference = 2CAEA54E303715F800702BAA /* LoginModularDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2C73DBF53037121A00A0B0FC /* LoginModularDemoUITests */ = {
@@ -160,7 +174,7 @@
 			packageProductDependencies = (
 			);
 			productName = LoginModularDemoUITests;
-			productReference = 2C73DBF63037121A00A0B0FC /* LoginModularDemoUITests.xctest */;
+			productReference = 2CAEA54F303715F800702BAA /* LoginModularDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -195,8 +209,10 @@
 			);
 			mainGroup = 2C73DBD63037121900A0B0FC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2C73DBE03037121900A0B0FC /* Products */;
+			productRefGroup = 2C73DBD63037121900A0B0FC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -410,6 +426,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.LoginModularDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -441,6 +461,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.LoginModularDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -570,6 +594,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C268B1030371E8300664406 /* LoginFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoginFeature;
+		};
+		2C9535B530371BA1006F39EB /* UIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIComponents;
+		};
+		2CAEA5843037187300702BAA /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C73DBD73037121900A0B0FC /* Project object */;
 }
