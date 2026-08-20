@@ -7,7 +7,7 @@
 
 import SwiftUI
 import UIComponents
-import Networking
+import AuthenticationCore
 
 public struct LoginView: View {
 

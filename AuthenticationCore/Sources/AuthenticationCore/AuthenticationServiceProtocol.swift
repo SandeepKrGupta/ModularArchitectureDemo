@@ -1,6 +1,6 @@
 //
 //  AuthenticationServiceProtocol.swift
-//  Networking
+//  AuthenticationCore
 //
 //  Created by Sandeep on 20/08/26.
 //

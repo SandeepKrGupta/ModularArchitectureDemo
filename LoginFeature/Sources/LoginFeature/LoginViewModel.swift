@@ -7,7 +7,7 @@
 
 import Foundation
 public import Combine
-import Networking
+import AuthenticationCore
 
 
 @MainActor

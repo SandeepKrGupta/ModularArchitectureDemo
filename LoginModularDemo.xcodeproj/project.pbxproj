@@ -10,6 +10,7 @@
 		2C268B1130371E8300664406 /* LoginFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 2C268B1030371E8300664406 /* LoginFeature */; };
 		2C75C6B330372F0400DA680F /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 2CAEA5843037187300702BAA /* Networking */; };
 		2C75C6B430372F0400DA680F /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9535B530371BA1006F39EB /* UIComponents */; };
+		2C9D55AE30373249005D817E /* AuthenticationCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2C9D55AD30373249005D817E /* AuthenticationCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		2C268B0F30371C6900664406 /* LoginFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LoginFeature; sourceTree = "<group>"; };
 		2C9535B43037198B006F39EB /* UIComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIComponents; sourceTree = "<group>"; };
+		2C9D55AC3037322C005D817E /* AuthenticationCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AuthenticationCore; sourceTree = "<group>"; };
 		2CA3E61E303718B40037E880 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		2CAEA54D303715F800702BAA /* LoginModularDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginModularDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAEA54E303715F800702BAA /* LoginModularDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModularDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				2C75C6B430372F0400DA680F /* UIComponents in Frameworks */,
 				2C75C6B330372F0400DA680F /* Networking in Frameworks */,
 				2C268B1130371E8300664406 /* LoginFeature in Frameworks */,
+				2C9D55AE30373249005D817E /* AuthenticationCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 				2CA3E61E303718B40037E880 /* Networking */,
 				2C9535B43037198B006F39EB /* UIComponents */,
 				2C268B0F30371C6900664406 /* LoginFeature */,
+				2C9D55AC3037322C005D817E /* AuthenticationCore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,7 @@
 				2CAEA5843037187300702BAA /* Networking */,
 				2C9535B530371BA1006F39EB /* UIComponents */,
 				2C268B1030371E8300664406 /* LoginFeature */,
+				2C9D55AD30373249005D817E /* AuthenticationCore */,
 			);
 			productName = LoginModularDemo;
 			productReference = 2CAEA54D303715F800702BAA /* LoginModularDemo.app */;
@@ -607,6 +612,10 @@
 		2C9535B530371BA1006F39EB /* UIComponents */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UIComponents;
+		};
+		2C9D55AD30373249005D817E /* AuthenticationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthenticationCore;
 		};
 		2CAEA5843037187300702BAA /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;

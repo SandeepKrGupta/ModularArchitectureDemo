@@ -7,7 +7,7 @@
 
 import SwiftUI
 import LoginFeature
-import Networking
+import AuthenticationCore
 @main
 struct LoginModularDemoApp: App {
     var body: some Scene {

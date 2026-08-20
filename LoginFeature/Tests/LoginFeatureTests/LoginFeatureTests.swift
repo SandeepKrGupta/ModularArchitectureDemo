@@ -1,7 +1,6 @@
 import XCTest
 @testable import LoginFeature
-import Networking
-
+import AuthenticationCore
 final class LoginFeatureTests: XCTestCase {
     var sut : LoginViewModel!
     

@@ -7,6 +7,7 @@
 
 import Foundation
 
+import AuthenticationCore
 
 public final class AuthenticationService: AuthenticationServiceProtocol,Sendable {
 

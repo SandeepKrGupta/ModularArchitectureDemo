@@ -4,35 +4,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "Networking",
-    platforms: [.iOS(.v16), .macOS(.v13)],
+    name: "AuthenticationCore",
+    platforms: [
+        .iOS(.v16),
+        .macOS(.v13)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Networking",
-            targets: ["Networking"]
+            name: "AuthenticationCore",
+            targets: ["AuthenticationCore"]
         ),
-    ],
-    dependencies: [
-        .package(path: "../AuthenticationCore")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Networking",
-            dependencies: [
-                .product(
-                    name: "AuthenticationCore",
-                    package: "AuthenticationCore"
-                )
-            ]
+            name: "AuthenticationCore"
+        ),
 
-        ),
-        .testTarget(
-            name: "NetworkingTests",
-            dependencies: ["Networking"]
-        ),
     ],
     swiftLanguageModes: [.v6]
 )
