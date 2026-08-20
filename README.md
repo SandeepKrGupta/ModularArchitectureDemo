@@ -1,7 +1,5 @@
 # ModularArchitectureDemo
 
-# Modular iOS Architecture
-
 A sample SwiftUI application demonstrating **Modular iOS Architecture** using:
 
 - SwiftUI
